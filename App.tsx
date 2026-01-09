@@ -168,7 +168,7 @@ const HomePage: React.FC<{ onNavigate: (page: Page) => void, onBook: () => void 
     <section className="relative h-[90vh] flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0">
         <img 
-          src="src/images/swimming-pool.jpg" 
+          src="image/swimming-pool.jpg" 
           alt="Beach view" 
           className="w-full h-full object-cover"
         />
@@ -246,22 +246,22 @@ const ExperiencePage: React.FC = () => (
     
     <section className="py-24 px-6 max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16">
       <div className="space-y-6">
-        <img src="src/images/man-surfing-brazil.jpg" alt="Surfing" className="rounded-2xl shadow-lg w-full h-80 object-cover" />
+        <img src="image/man-surfing-brazil.jpg" alt="Surfing" className="rounded-2xl shadow-lg w-full h-80 object-cover" />
         <h3 className="text-3xl font-bold text-slate-800">Surf & Shore</h3>
         <p className="text-slate-600">Our beachfront location offers world-class waves for all levels. We provide professional coaching and equipment rental directly on the sand.</p>
       </div>
       <div className="space-y-6">
-        <img src="src/images/healthy-attractive-woman-doing-exercises-body-practicing-yoga.jpg" alt="Yoga" className="rounded-2xl shadow-lg w-full h-80 object-cover" />
+        <img src="image/healthy-attractive-woman-doing-exercises-body-practicing-yoga.jpg" alt="Yoga" className="rounded-2xl shadow-lg w-full h-80 object-cover" />
         <h3 className="text-3xl font-bold text-slate-800">Sunset Wellness</h3>
         <p className="text-slate-600">Join our daily yoga sessions on the terrace as the sun dips below the horizon. Our wellness spa offers traditional Ayurvedic treatments.</p>
       </div>
       <div className="space-y-6">
-        <img src="src/images/ramesh-ranasinghe-vq7iaP7ItJg-unsplash.jpg" alt="Whale watching" className="rounded-2xl shadow-lg w-full h-80 object-cover" />
+        <img src="image/ramesh-ranasinghe-vq7iaP7ItJg-unsplash.jpg" alt="Whale watching" className="rounded-2xl shadow-lg w-full h-80 object-cover" />
         <h3 className="text-3xl font-bold text-slate-800">Coastal Exploration</h3>
         <p className="text-slate-600">Discover the secrets of the Indian Ocean with our guided whale-watching tours and secret beach excursions led by local experts.</p>
       </div>
       <div className="space-y-6">
-        <img src="src/images/matthijs-idema-ATup6L9yPeU-unsplash.jpg" alt="Local culture" className="rounded-2xl w-full h-80 object-cover" />
+        <img src="image/matthijs-idema-ATup6L9yPeU-unsplash.jpg" alt="Local culture" className="rounded-2xl w-full h-80 object-cover" />
         <h3 className="text-3xl font-bold text-slate-800">Cultural Immersive</h3>
         <p className="text-slate-600">Take a trip to the historic Galle Fort or visit local tea plantations to experience the rich heritage of Sri Lanka.</p>
       </div>
